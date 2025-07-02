@@ -1,7 +1,4 @@
-.columns{
-  display: flex;
-  flex-wrap: wrap;
-}
+
 /*img{
   width: 100%;
   height: 30%;
@@ -13,9 +10,18 @@
 .topnav img{
   height: 70px;
 }
-.topnav h2{
-  
+.img img{
+  height: 300px;
+  width: 100%;
+}/*
+.top{
+  position: relative;
 }
---webkit::scroll-marker{
-  
+.top .h2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  font-size: 1.5rem;
+  /* padding: 1rem; */
 }
