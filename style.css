@@ -1,8 +1,5 @@
 
-/*img{
-  width: 100%;
-  height: 30%;
-}*/
+
 .topnav{
   display: flex;
   align-items: center;
@@ -13,15 +10,23 @@
 .img img{
   height: 300px;
   width: 100%;
-}/*
-.top{
-  position: relative;
+  animation: fade linear;
+  animation-timeline: view();
 }
-.top .h2{
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  font-size: 1.5rem;
-  /* padding: 1rem; */
+p{
+  animation: fade linear;
+  animation-timeline: view();
+}
+
+
+@keyframes fade{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+  0%{
+    opacity: 0.5;
+  }
 }
