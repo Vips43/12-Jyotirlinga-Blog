@@ -8,7 +8,7 @@
   height: 70px;
 }
 .img img{
-  height: 300px;
+  
   width: 100%;
   animation: fade linear;
   animation-timeline: view();
@@ -16,8 +16,13 @@
 p{
   animation: fade linear;
   animation-timeline: view();
+  text-overflow: ellipsis;
+  height: 200px;
 }
-
+p-tag{
+  text-overflow: ellipsis;
+  height: 200px;
+}
 
 @keyframes fade{
   from{
